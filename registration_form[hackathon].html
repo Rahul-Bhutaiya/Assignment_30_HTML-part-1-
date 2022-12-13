@@ -1,0 +1,28 @@
+<!-- 
+Create a registration form for a hackathon, (Include form validation).
+Note: You should not include any CSS or Javascript
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Hackathon - Register</title>
+</head>
+<body>
+    <center>
+        <form>
+            <h1>Register To Participate In Hackathon</h1>
+
+            <pre><label><b>       Name          : </label><input type="text" name="pname" placeholder="Enter You Name Here" required title="Enter Your Name As Mentioned In Your Id Proof">
+
+            <br><label><b>       Email         : </b></label><input type="email" name="pemail" placeholder="Enter Your Email Here" required title="Enter Valid Email Id">
+
+            <br><label><b>Contact       : </b></label><input type="number" name="pcontact" placeholder="Enter Your Contact Number Here" required min="1000000000" max="9999999999" title="Enter Valid Contact Number">
+            
+            <br><label><b>Favourite Technology :</b></label><input type="text"  name="pfav" placeholder="Enter Your Favourite Tech in IT" title="You Can Enter Your Master Skill">
+            </pre>
+            <button>Submit</button>
+        </form>
+    </center>
+</body>
+</html>
